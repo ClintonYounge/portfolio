@@ -32,10 +32,9 @@ A Microverse project to create the Mobile Version of my Portfolio!
 
 > **Setup and Mobile First** is a starter exercise to create a porfolio based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic Porfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
+> This Porfolio focuses only on `linters` and `.gitignore`. No JS or Server are included in this repository.
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> This Porfolio focuses only on `linters` and `.gitignore`. No JS or Server are included in this repo.
 <details>
   <summary>Client</summary>
   <ul>
