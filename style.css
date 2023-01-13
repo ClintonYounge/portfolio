@@ -28,14 +28,14 @@ header nav .logo {
   font-size: 18px;
   line-height: 20px;
   align-self: center;
-  color: #6070ff;
+  color: #2f3142;
   white-space: nowrap;
 }
 
 header nav div .menu-bar {
   width: 18px;
   height: 12px;
-  color: #6070ff;
+  color: #2a51ab;
   margin-top: 26px;
   font-size: 24px;
   margin-right: 35px;
@@ -127,7 +127,7 @@ header nav div .menu-bar {
   flex: none;
   order: 0;
   flex-grow: 0;
-  color: #505f79;
+  color: #217ea0;
   font-weight: bold;
 }
 
@@ -138,12 +138,12 @@ header nav div .menu-bar {
   flex: none;
   order: 1;
   flex-grow: 0;
-  color: #505f79;
+  color: #2b57a2;
   font-weight: bold;
 }
 
 .li3 {
-  color: #505f79;
+  color: #1b2639;
   width: 20px;
   height: 16px;
   padding-right: 19px;
