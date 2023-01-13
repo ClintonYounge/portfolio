@@ -78,7 +78,7 @@ or
 
 or
 
-Utilizing Github Desktop. A simple interface, thats powerful enough to simply this process.
+Utilizing Github Desktop. A simple interface, thats powerful enough to simplify this process.
 https://desktop.github.com/
 
 ### Install:
