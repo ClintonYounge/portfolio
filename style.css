@@ -28,7 +28,12 @@ header nav .logo {
   font-size: 18px;
   line-height: 20px;
   align-self: center;
-  color: #2f3142;
+  --color-primary: #272a31;
+  --color-secondary: #ec5242;
+  --color-tertiary: #d3d3d3;
+  --color-white: #fff;
+  --color-grey: #585858;
+  --color-light-grey: #ebf0ee;
   white-space: nowrap;
 }
 
@@ -36,6 +41,12 @@ header nav div .menu-bar {
   width: 18px;
   height: 12px;
   color: #2a51ab;
+  --color-primary: #42578a;
+  --color-secondary: #88362d;
+  --color-tertiary: #be7c7c;
+  --color-white: #fff;
+  --color-grey: #542d2d;
+  --color-light-grey: #42ad82;
   margin-top: 26px;
   font-size: 24px;
   margin-right: 35px;
