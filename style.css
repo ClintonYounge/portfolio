@@ -42,135 +42,135 @@ header nav div .menu-bar {
 }
 
 .introduction {
-    width: 375px;
-    height: 750px;
-    background: #fff;
-    padding-top: 12px;
-    background-image: url(Pics_Needed/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-left: 24px;
-    border-bottom-left-radius: 70px;
-  }
+  width: 375px;
+  height: 750px;
+  background: #fff;
+  padding-top: 12px;
+  background-image: url(Pics_Needed/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+  border-bottom-left-radius: 70px;
+}
   
-  .introduction .title {
-    margin-top: 150px;
-    padding-top: 50px;
-    margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 40px;
-    width: 327px;
-    height: 130px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172b4d;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    white-space: pre-line;
-    padding-right: 25px;
-  }
+.introduction .title {
+  margin-top: 150px;
+  padding-top: 50px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 40px;
+  width: 327px;
+  height: 130px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: pre-line;
+  padding-right: 25px;
+}
   
-  .description {
-    padding-bottom: 0;
-    margin-bottom: 1px;
-    height: 146px;
-    width: 327px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    order: 1;
-    top: 276px;
-    left: 24px;
-    flex-grow: 0;
-    align-items: center;
-    padding-right: 24px;
-    white-space: pre-line;
-  }
+.description {
+  padding-bottom: 0;
+  margin-bottom: 1px;
+  height: 146px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  top: 276px;
+  left: 24px;
+  flex-grow: 0;
+  align-items: center;
+  padding-right: 24px;
+  white-space: pre-line;
+}
   
-  .social {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    white-space: nowrap;
-    padding-top: 12px;
-  }
+.social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  white-space: nowrap;
+  padding-top: 12px;
+}
   
-  .order {
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-  }
+.order {
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
   
-  .social-links {
-    display: flex;
-    padding-top: 0;
-    margin-top: 12px;
-    margin-right: 180.83px;
-    padding-right: 0;
-    flex-direction: row;
-    align-items: flex-start;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    list-style: none;
-  }
+.social-links {
+  display: flex;
+  padding-top: 0;
+  margin-top: 12px;
+  margin-right: 180.83px;
+  padding-right: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  list-style: none;
+}
   
-  .li1 {
-    width: 19px;
-    height: 19px;
-    padding-right: 19px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    color: #505f79;
-    font-weight: bold;
-  }
+.li1 {
+  width: 19px;
+  height: 19px;
+  padding-right: 19px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #505f79;
+  font-weight: bold;
+}
   
-  .li2 {
-    width: 20px;
-    height: 20px;
-    padding-right: 19px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    color: #505f79;
-    font-weight: bold;
-  }
+.li2 {
+  width: 20px;
+  height: 20px;
+  padding-right: 19px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #505f79;
+  font-weight: bold;
+}
   
-  .li3 {
-    color: #505f79;
-    width: 20px;
-    height: 16px;
-    padding-right: 19px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    font-weight: bold;
-  }
+.li3 {
+  color: #505f79;
+  width: 20px;
+  height: 16px;
+  padding-right: 19px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  font-weight: bold;
+}
   
-  .li4 {
-    width: 17.99px;
-    height: 20px;
-    padding-right: 19px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    color: #505f79;
-    font-weight: bold;
-  }
+.li4 {
+  width: 17.99px;
+  height: 20px;
+  padding-right: 19px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: #505f79;
+  font-weight: bold;
+}
   
-  .li5 {
-    width: 14.17px;
-    height: 20px;
-    padding-right: 0;
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-    color: #505f79;
-    font-weight: bold;
-  }
+.li5 {
+  width: 14.17px;
+  height: 20px;
+  padding-right: 0;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  color: #505f79;
+  font-weight: bold;
+}
