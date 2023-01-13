@@ -16,12 +16,12 @@ header {
   padding-left: 24px;
   background: #fff;
 }
-  
+
 nav {
   display: flex;
   flex-direction: row;
 }
-  
+
 header nav .logo {
   margin: 26px 223px 26px 0;
   font-weight: 700;
@@ -52,7 +52,7 @@ header nav div .menu-bar {
   padding-left: 24px;
   border-bottom-left-radius: 70px;
 }
-  
+
 .introduction .title {
   margin-top: 150px;
   padding-top: 50px;
@@ -71,7 +71,7 @@ header nav div .menu-bar {
   white-space: pre-line;
   padding-right: 25px;
 }
-  
+
 .description {
   padding-bottom: 0;
   margin-bottom: 1px;
@@ -90,7 +90,7 @@ header nav div .menu-bar {
   padding-right: 24px;
   white-space: pre-line;
 }
-  
+
 .social {
   font-weight: 500;
   font-size: 16px;
@@ -99,13 +99,13 @@ header nav div .menu-bar {
   white-space: nowrap;
   padding-top: 12px;
 }
-  
+
 .order {
   flex: none;
   order: 3;
   flex-grow: 0;
 }
-  
+
 .social-links {
   display: flex;
   padding-top: 0;
@@ -119,7 +119,7 @@ header nav div .menu-bar {
   flex-grow: 0;
   list-style: none;
 }
-  
+
 .li1 {
   width: 19px;
   height: 19px;
@@ -130,7 +130,7 @@ header nav div .menu-bar {
   color: #505f79;
   font-weight: bold;
 }
-  
+
 .li2 {
   width: 20px;
   height: 20px;
@@ -141,7 +141,7 @@ header nav div .menu-bar {
   color: #505f79;
   font-weight: bold;
 }
-  
+
 .li3 {
   color: #505f79;
   width: 20px;
@@ -152,7 +152,7 @@ header nav div .menu-bar {
   flex-grow: 0;
   font-weight: bold;
 }
-  
+
 .li4 {
   width: 17.99px;
   height: 20px;
@@ -163,7 +163,7 @@ header nav div .menu-bar {
   color: #505f79;
   font-weight: bold;
 }
-  
+
 .li5 {
   width: 14.17px;
   height: 20px;
