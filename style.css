@@ -80,7 +80,7 @@ header nav div .menu-bar {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
+  color: #283b5a;
   flex: none;
   order: 1;
   top: 276px;
@@ -261,12 +261,6 @@ header nav div .menu-bar {
   white-space: nowrap;
 }
 
-.section-titlef {
-  display: none;
-  height: 0;
-  width: 0;
-}
-
 .list {
   display: flex;
   flex-direction: row;
@@ -302,7 +296,7 @@ header nav div .menu-bar {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: #7A869A;
   margin-left: 12px;
   margin-right: 12px;
   padding-top: 8px;
@@ -317,7 +311,7 @@ header nav div .menu-bar {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
+  color: #7A869A;
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -326,7 +320,7 @@ header nav div .menu-bar {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
+  color: #4a76c3;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -337,7 +331,7 @@ header nav div .menu-bar {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
+  color: #142441;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -544,7 +538,7 @@ header nav div .menu-bar {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
+  color: #7e8a9f;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -595,6 +589,7 @@ header nav div .menu-bar {
   display: flex;
   flex-direction: row;
   justify-items: flex-start;
+  align-items: baseline;
   flex: none;
   order: 0;
   flex-grow: 0;
