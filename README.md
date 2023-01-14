@@ -125,6 +125,6 @@ I also want to thank to my Brother *Charles Gardimy* for his help, advice and en
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
