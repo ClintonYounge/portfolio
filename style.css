@@ -97,19 +97,19 @@ header nav div .menu-bar {
   line-height: 24px;
   color: #7f8cff;
   white-space: nowrap;
-  padding-top: 12px;
 }
 
 .order {
   flex: none;
-  order: 3;
+  order: 2;
   flex-grow: 0;
+  padding-bottom: 0rem;
 }
 
 .social-links {
   display: flex;
   padding-top: 0;
-  margin-top: 12px;
+  margin-top: 0px;
   margin-right: 180.83px;
   padding-right: 0;
   flex-direction: row;
@@ -265,7 +265,7 @@ header nav div .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
+  padding-bottom: 0;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -286,7 +286,7 @@ header nav div .menu-bar {
   color: #344563;
   margin-right: 12px;
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 30px;
 }
 
 .list2 {
@@ -300,7 +300,7 @@ header nav div .menu-bar {
   margin-left: 12px;
   margin-right: 12px;
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 30px;
 }
 
 .list3 {
@@ -313,7 +313,7 @@ header nav div .menu-bar {
   line-height: 16px;
   color: #7A869A;
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 30px;
 }
 
 .section-description {
@@ -541,12 +541,6 @@ header nav div .menu-bar {
   color: #7e8a9f;
   flex: none;
   order: 1;
-  flex-grow: 0;
-}
-
-.order2 {
-  flex: none;
-  order: 2;
   flex-grow: 0;
 }
 
