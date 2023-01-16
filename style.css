@@ -143,6 +143,7 @@ header nav div .menu-bar {
   width: 20px;
   height: 16px;
   padding-right: 19px;
+  padding-top: 3px;
   flex: none;
   order: 2;
   flex-grow: 0;
