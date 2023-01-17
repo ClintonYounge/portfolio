@@ -745,7 +745,7 @@ input[type="text" i] {
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   background: linear-gradient(0deg, #CFD8DC, #CFD8DC),
-  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 }
 
@@ -757,7 +757,7 @@ input[type="email" i] {
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   background: linear-gradient(0deg, #CFD8DC, #CFD8DC),
-  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 }
 
@@ -769,7 +769,7 @@ textarea {
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   background: linear-gradient(0deg, #CFD8DC, #CFD8DC),
-  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
 }
 
@@ -782,7 +782,7 @@ textarea {
   border-radius: 8px;
   color: #6070ff;
   background: linear-gradient(0deg, #CFD8DC, #CFD8DC),
-  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
   margin-right: 180px;
 
 }
@@ -793,11 +793,9 @@ textarea {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-
-  
 }
 
-::placeholder {
+textarea::placeholder {
   color: #b3bac5;
   margin-left: 20px;
 }
