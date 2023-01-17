@@ -78,10 +78,10 @@
           <button class="btn">See Project</button>
         </div>
       </div>
-    </div>
+    </section>
 
 
-    <div class="section2">
+    <section class="section2">
       <div class="right-block">
         <img class="image-section2" src="./images/Snap2.png" alt="project image">
       </div>
@@ -117,9 +117,9 @@
           <button class="btn">See Project</button>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section3">
+    <section class="section3">
       <div class="right-block">
         <img class="image-section3" src="./images/Snap3.png" alt="project image">
       </div>
@@ -150,9 +150,9 @@
           <button class="btn">See Project</button>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section4">
+    <section class="section4">
       <div class="right-block">
         <img class="image-section4" src="./images/Snap4.png" alt="project image">
       </div>
@@ -184,15 +184,16 @@
           <button class="btn">See Project</button>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section5">
+    <section class="section5">
       <div class="top">
         <h4 class="about-heading">About <br>Myself</h4>
         <p class="about-description">Hello I'm a software developer! I can help you build a product, feature or website.
           Look
           through some of my work and experience. If you like what you see and have a project you need coded, don't
           hestiate to contact me.</p>
+          <br>
         <h2 class="social order">LET'S CONNECT</h2>
 
         <ul class="social-links">
@@ -233,22 +234,19 @@
           <i class="fa-solid fa-angle-right btn1"></i>
         </div>
       </div>
-    </div>
-    <div class="section6">
-      <div class="top2">
-        <h4 class="about-heading2">Contact Me</h4>
-      </div>
-      <p class="about-description2">If you have an application you are interested in developing,
-        a feature that you need built or a project that needs coding.
-        I'd love to help with it.</p>
-      <div class="inputs">
-        <input type="text" id="name" name="name" placeholder="name">
-        <input type="email" id="email" name="email" placeholder="email">
-        <textarea name="text-area" id="text-area" placeholder="Write your message here"></textarea>
-        <button class="form-button">Get In Touch</button>
-      </div>
-    </div>
-  </section>
-</body>
+    </section>
 
+    <section id="contact">
+      <h2> Contact me </h2>
+      <p class="cta"> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
+  
+      <form action="https://formspree.io/f/mbjbnyye" method="post" class="contact-form">
+         <input type="text" name="username" placeholder="Enter Full Name" id="username" maxlength=30 required>
+         <p class="error-message">Please use only lower case letters for your email.</p>
+         <input type="email" name="user-email" placeholder="Enter e-mail" id="user-email" required>
+         <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Write your message here" maxlength=500 required></textarea>
+         <button type="submit" class="form-btn">Get in Touch</button>
+       </form>
+    </section>
+  </body>
 </html>
