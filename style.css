@@ -682,3 +682,69 @@ header nav div .menu-bar {
   background: #e5e5e5;
   color: #5e6c84;
 }
+
+.section6 {
+  position: absolute;
+  margin-top: 114px;
+  padding: 114px 24px;
+  left: 0px;
+  top: 5410px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 375px;
+  height: 779px;
+  background: #6070FF;
+  border-top-left-radius: 70px;
+}
+
+.about-heading2 {
+  width: 375px;
+  height: 56px;
+  left: -213px;
+  top: 4734px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about-description2 {
+  width: 370px;
+  height: 102px;
+  left: 24px;
+  top: 4802px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.top2 {
+  position: absolute;
+  top: -1px;
+}
+
+input[type="text" i] {
+  height: 48px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #CFD8DC, #CFD8DC),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
