@@ -22,9 +22,9 @@ A Microverse project to create the Mobile Version of my Portfolio!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio Project, Mobile First <a name="about-project"></a>
+# 📖 My Portfolio Project<a name="about-project"></a>
 
-> **Setup and Mobile First** is a starter exercise to create a porfolio based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic Porfolio with properly configured linters and correct initial file structrure.
+> **My Portfolio Project** is a starter exercise to create a porfolio based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic Porfolio with properly configured linters and correct initial file structrure.
 ## 🛠 Built With <a name="built-with"></a>
 > This Porfolio focuses only on `linters` and `.gitignore`. No JS or Server are included in this repository.
 
@@ -45,6 +45,8 @@ A Microverse project to create the Mobile Version of my Portfolio!
 - **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), and [Stylelint](https://stylelint.io/.)
 - **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
 - **A** `.gitignore` file including `node_modules/`.
+- A formspree form with a valid link.
+- Buttons that react when you hover.
 
 <!-- GETTING STARTED -->
 
@@ -91,6 +93,9 @@ To run the linters before committing any changes to your code, execute the follo
 
 ## 👥 Authors <a name="authors"></a>
 
+> 👤 **Austin Iheagwarq**
+> 👤 **José Madrigal**
+
 > 👤 **Clinton Younge**
 - GitHub: [@ClintonYounge](https://github.com/ClintonYounge)
 - Linkedin: [@clinton-younge](https://www.linkedin.com/in/clinton-younge-83386a25a/)
@@ -120,7 +125,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Many thanks to [Microverse](https://www.microverse.org/) for teaching me all I know about programming.
-I also want to thank to my Brother *Charles Gardimy* for his help, advice and encouragement to press onward through the tough times.
+I also want to thank to my coding partners *Austin Iheagwarq* and *José Madrigal* for their help with this project and advice on how to improve as a learning developer.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
