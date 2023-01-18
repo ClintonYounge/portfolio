@@ -44,7 +44,7 @@ nav {
   background-repeat: no-repeat;
   background-color: #fff;
   margin-bottom: 20px;
-  border-radius: 0 0 0 100px;
+  border-radius: 100px;
   box-sizing: border-box;
   height: calc(100vh - 55px);
   display: flex;
@@ -118,6 +118,7 @@ li {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: auto;
   gap: 88px;
+  padding-left: 35px;
 }
 
 .projects {
@@ -257,13 +258,13 @@ li {
 
 #about-section {
   display: flex;
-  border-top-right-radius: 70px;
+  border-radius: 70px;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
   gap: 24px;
-  width: 375px;
   background-color: white;
+  padding-left: 45px;
 }
 
 .about-intro {
@@ -413,7 +414,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-top-left-radius: 100px;
+  border-radius: 60px;
 }
 
 #contact h2 {
@@ -449,10 +450,11 @@ li {
   margin: 12px 24px;
   border: 1px solid #cfd8dc;
   padding: 1rem 12px;
+  border-radius: 10px;
 }
 
 #text-area {
-  resize: none;
+  resize: auto;
   height: auto;
 }
 

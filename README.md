@@ -93,6 +93,9 @@ To run the linters before committing any changes to your code, execute the follo
 
 ## 👥 Authors <a name="authors"></a>
 
+> 👤 **Austin Iheagwarq**
+> 👤 **José Madrigal**
+
 > 👤 **Clinton Younge**
 - GitHub: [@ClintonYounge](https://github.com/ClintonYounge)
 - Linkedin: [@clinton-younge](https://www.linkedin.com/in/clinton-younge-83386a25a/)
