@@ -255,6 +255,29 @@ li {
   background-color: #344563;
 }
 
+.action-btn {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  text-align: center;
+  background-color: #fff;
+}
+
+.action-btn:hover {
+  color: #fff;
+  background-color: #396df2;
+  cursor: pointer;
+}
+
+.action-btn:active {
+  background-color: #344563;
+}
+
 #about-section {
   display: flex;
   border-radius: 70px;
