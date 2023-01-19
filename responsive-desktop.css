@@ -148,8 +148,6 @@
     font-size: 20px;
   }
 
-  /*Contact Section*/
-
   #contact {
     padding: 122px 200px;
     align-items: center;
@@ -207,7 +205,8 @@
     margin-bottom: 45px;
     border-radius: 8px;
     background: #fff;
-    padding: 12px 0px 12px 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -245,6 +244,3 @@
     top: 15px;
   }
 }
-
-
-  
