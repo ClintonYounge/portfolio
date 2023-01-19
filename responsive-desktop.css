@@ -1,0 +1,253 @@
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #e5e5e5;
+  }
+
+  .introduction {
+    background-image: url("./images/Portfolio-BG/Header\ bg.png");
+    background-size: cover;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 143px;
+  }
+
+  nav {
+    background-color: #fff;
+  }
+
+  .nav-items {
+    opacity: 100;
+    padding-right: 142px;
+  }
+
+  .nav-items a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
+    padding: 0 12px;
+  }
+
+  .title,
+  .social,
+  .social-links {
+    padding-left: 260px;
+  }
+
+  .social-links {
+    mix-blend-mode: multiply;
+  }
+
+  .description {
+    padding: 0 260px;
+  }
+
+  .container {
+    display: flex;
+    column-gap: 0;
+    row-gap: 88px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    margin: 50px 100px;
+    height: fit-content;
+  }
+
+  .snapshot-details {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 544px;
+    height: fit-content;
+    align-items: flex-start;
+  }
+
+  .snapshot {
+    width: 554px;
+    border-radius: 1px;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 114px 96px;
+    width: 100%;
+    background-color: #fff;
+    border-top-right-radius: 150px;
+  }
+
+  .social-links2 {
+    padding-left: 0;
+  }
+
+  .social-links li {
+    display: inline;
+  }
+
+  .about-intro {
+    width: 40%;
+  }
+
+  .skilllist {
+    width: 60%;
+    padding: 24px;
+    margin: 0;
+    align-items: flex-start;
+    height: 409px;
+  }
+
+  .skilllist li {
+    padding: 0;
+    width: 100%;
+  }
+
+  .skilllist div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .language-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .language-list li {
+    flex-direction: column;
+    height: fit-content;
+    align-items: baseline;
+    padding: 16px;
+  }
+
+  .frameworks,
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+    padding: 18px 0;
+    width: 100%;
+  }
+
+  .frameworks-title,
+  .skills-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #contact {
+    padding: 122px 200px;
+    align-items: center;
+  }
+
+  #contact h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    padding-top: 103px;
+    padding-bottom: 12px;
+    width: 447px;
+  }
+
+  .content {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ebebff;
+    text-align: center;
+    padding: 0 24px 30px 24px;
+    width: 447px;
+    margin-left: 37px;
+  }
+
+  .contact-form {
+    padding-left: 12px;
+    width: 480px;
+  }
+
+  #username,
+  #user-email,
+  #text-area {
+    width: 100%;
+    margin: 12px 0;
+    border: 1px solid #cfd8dc;
+    padding: 1rem 12px;
+    border-radius: 2px;
+  }
+
+  #text-area {
+    resize: none;
+    height: auto;
+  }
+
+  .form-btn {
+    width: 140px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    background: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    border: 1px solid #cfd8dc;
+    display: block;
+  }
+
+  .form-btn:hover {
+    color: #fff;
+    background-color: #396df2;
+    cursor: pointer;
+  }
+
+  .form-btn:active {
+    background-color: #172b4d;
+  }
+
+  .projects img {
+    transition: transform 2s;
+  }
+
+  .projects img:hover {
+    transform: scale(108%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    position: fixed;
+    top: 15px;
+  }
+}

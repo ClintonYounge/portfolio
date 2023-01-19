@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Clinton Younge's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive-desktop.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link
@@ -16,17 +17,20 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <nav>
-      <a class="logo" href="#">My logo</a>
-      <div>
-        <button class="hamburger"><img class="hamburger-img" src="./images/Enabled.png" alt=""></button>
-      </div>
+      <a class="logo" href="#"> My Logo</a> 
+      <ul class="nav-items">
+        <li><a href="#work-section">Portfolio</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger"><img class="hamburger-img" src="./images/Enabled.png" alt=""></button>
     </nav>
   </header>
 
   <section class="introduction">
-    <h1 class="title"> I'm Clinton, Glad to See You!</h1>
+    <h2 class="title"> I'm Clinton,<br> Glad to See You!</h2>
     <p class="description">I'm a software developer! I can help you build a product, feature or website. Look through
       some of my work and experience. If you like what you see and have a project you need coded, don't hestiate to
       contact me.</p>
@@ -48,118 +52,124 @@
 
   </section>
 
-  <section class="work-section">
-
+  <section id="work-section">
+        
     <div class="container">
-
-      <div class="projects">
-        <img class="proj-img" src="./images/Snap1.png" alt="project image">
-        <div class="experience">
-           <div class="work-description">
-             <div class="work-introduction">
-               <h1 class="section-title">Tonic</h1>
-               <div class="frame"><span class="client">CANOPY</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="role">Back End Dev</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="year">2015</span>
-               </div>
+       <div class="projects">
+           <img src="./images/Snap1.png" alt="snapshot poortfolio" class="snapshot">
+           <div class="snapshot-details">
+             <div class="works-description">
+                 <div class="works-intro">
+                     <h2 class="project-title">Tonic</h2>
+                     <div class="frame">
+                         <span class="client">
+                             CANOPY</span>
+                         <img src="./images/Dot  shape.png" alt="" class="counter">
+                         <span class="role">Back End Dev</span>
+                         <img src="./images/Dot  shape.png" alt="" class="counter">
+                         <span class="year">2015</span>
+                     </div>
+                 </div>
              </div>
+             <p class="details">
+                     A daily selection of privately personalized reads; no accounts or sign-ups required.
+             </p>
+             <ul class="tags">
+                 <li>html</li>
+                 <li>css</li>
+                 <li>javaScript</li>
+             </ul>
+             <button class="action-button see-project">See Project</button>
            </div>
+          </div>
 
-          <p class="proj-description">A daily selection of privately personalized reads; 
-            no accounts or sign-ups required.</p>
-        </div>
-        
-        <ul class="tags">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
-        <button class="action-btn">See Project</button>
-      </div>
-
-      <div class="projects">
-        <img class="proj-img" src="./images/Snap2.png" alt="project image">
-        <div class="experience">
-           <div class="work-description">
-             <div class="work-introduction">
-               <h1 class="section-title">Multi-Post Stories</h1>
-               <div class="frame"><span class="client">CANOPY</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="role">Back End Dev</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="year">2015</span>
+       <div class="projects">
+           <img src="./images/Snap2.png" alt="snapshot poortfolio" class="snapshot">
+             <div class="snapshot-details">
+               <div class="works-description">
+                 <div class="works-intro">
+                   <h2 class="project-title">Multi-Post
+                       Stories</h2>
+                   <div class="frame">
+                       <span class="client">
+                           CANOPY</span>
+                       <img src="./images/Dot  shape.png" alt="" class="counter">
+                       <span class="role">Back End Dev</span>
+                       <img src="./images/Dot  shape.png" alt="" class="counter">
+                       <span class="year">2015</span>
+                   </div>
+                 </div>
                </div>
-             </div>
-           </div>
+              <span class="details">
+                   A daily selection of privately personalized reads; no accounts or sign-ups required.
+               </span>
+               <ul class="tags">
+                 <li>html</li>
+                 <li>css</li>
+                 <li>javaScript</li>
+               </ul>
+               <button class="action-button see-project">See Project</button>
+         </div>
+       </div>
 
-          <p class="proj-description">A daily selection of privately personalized reads; 
-            no accounts or sign-ups required.</p>
-        </div>
-        
-        <ul class="tags">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
-        <button class="action-btn">See Project</button>
-      </div>
-
-      <div class="projects">
-        <img class="proj-img" src="./images/Snap3.png" alt="project image">
-        <div class="experience">
-           <div class="work-description">
-             <div class="work-introduction">
-               <h1 class="section-title">Tonic</h1>
-               <div class="frame"><span class="client">CANOPY</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="role">Back End Dev</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="year">2015</span>
+       <div class="projects">
+           <img src="./images/Snap3.png" alt="snapshot poortfolio" class="snapshot">
+           <div class="snapshot-details">
+             <div class="works-description">
+                   <div class="works-intro">
+                       <h2 class="project-title">Tonic</h2>
+                       <div class="frame">
+                           <span class="client">
+                               CANOPY</span>
+                           <img src="./images/Dot  shape.png" alt="" class="counter">
+                           <span class="role">Back End Dev</span>
+                           <img src="./images/Dot  shape.png" alt="" class="counter">
+                           <span class="year">2015</span>
+                       </div>
+                   </div>
                </div>
-             </div>
+               <span class="details">
+                       A daily selection of privately personalized reads; no accounts or sign-ups required.
+               </span>
+               <ul class="tags">
+                   <li>html</li>
+                   <li>css</li>
+                   <li>javaScript</li>
+               </ul>
+               <button class="action-button see-project">See Project</button>
            </div>
+       </div>
 
-          <p class="proj-description">A daily selection of privately personalized reads; 
-            no accounts or sign-ups required.</p>
-        </div>
-        
-        <ul class="tags">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
-        <button class="action-btn">See Project</button>
-      </div>
-
-      <div class="projects">
-        <img class="proj-img" src="./images/Snap4.png" alt="project image">
-        <div class="experience">
-           <div class="work-description">
-             <div class="work-introduction">
-               <h1 class="section-title">Multi-Post Stories</h1>
-               <div class="frame"><span class="client">CANOPY</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="role">Back End Dev</span>
-                 <img src="./images/Dot  shape.png" alt="" class="Dot">
-                 <span class="year">2015</span>
-               </div>
+       <div class="projects">
+           <img src="./images/Snap4.png" alt="snapshot poortfolio" class="snapshot">
+           <div class="snapshot-details">
+             <div class="works-description">
+                 <div class="works-intro">
+                     <h2 class="project-title">Multi-Post
+                         Stories</h2>
+                     <div class="frame">
+                         <span class="client">
+                             CANOPY</span>
+                         <img src="./images/Dot  shape.png" alt="" class="counter">
+                         <span class="role">Back End Dev</span>
+                         <img src="./images/Dot  shape.png" alt="" class="counter">
+                         <span class="year">2015</span>
+                     </div>
+                 </div>
              </div>
-           </div>
-
-          <p class="proj-description">A daily selection of privately personalized reads; 
-            no accounts or sign-ups required.</p>
-        </div>
-        
-        <ul class="tags">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
-        </ul>
-        <button class="action-btn">See Project</button>
-      </div>
-  </section>
+             <span class="details">
+                     A daily selection of privately personalized reads; no accounts or sign-ups required.
+             </span>
+             <ul class="tags">
+                 <li>html</li>
+                 <li>css</li>
+                 <li>javaScript</li>
+             </ul>
+             <button class="action-button see-project">See Project</button>
+         </div>
+       </div>
+     </div>
+   </section>
 
     <section id="about-section">
       <div class="about-intro">
@@ -192,7 +202,7 @@
       <ul class="skilllist">
         <li>
           <div>
-            <span class="language-title">&nbsp&nbsp&nbspLANGUAGES</span>
+            <span class="language-title">LANGUAGES</span>
             <button class="chevron-button">
               <img src="./images/chevron-down.png" alt="" class="chevron">
             </button>
