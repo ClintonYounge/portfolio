@@ -4,10 +4,7 @@
   }
 
   .introduction {
-    background-image: url("./images/Portfolio\ Background.jpg");
-  }
-
-  #introduction {
+    background-image: url("./images/Portfolio-BG/Header\ bg.png");
     background-size: cover;
   }
 
