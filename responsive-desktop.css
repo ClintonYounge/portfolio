@@ -236,13 +236,6 @@
     background-color: #172b4d;
   }
 
-  .projects img {
-    transition: transform 2s;
-  }
-
-  .projects img:hover {
-    transform: scale(108%);
-  }
 }
 
 @media screen and (max-width: 768px) {
