@@ -67,14 +67,14 @@
     border-radius: 24px;
     margin: 50px 100px;
     height: fit-content;
-    animation-name: myname;
   }
 
-  @keyframes myname {
-    0% { translate: 10px 0; }
-    50% { translate: -10px 0; }
-    75% { translate: 10px 0; }
-    100% { translate: -10px 0; }
+  .projects img { 
+    transition: transform 2s;
+  }
+  
+  .projects img:hover{ 
+    transform: scale(107%);  
   }
 
   .snapshot-details {
