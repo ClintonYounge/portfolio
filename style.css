@@ -245,6 +245,13 @@ li {
   cursor: pointer;
 }
 
+@keyframes myname {
+  0% { translate: 10px 0; }
+  50% { translate: -10px 0; }
+  75% { translate: 10px 0; }
+  100% { translate: -10px 0; }
+}
+
 .action-button:active {
   background-color: #344563;
 }

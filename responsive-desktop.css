@@ -69,6 +69,14 @@
     height: fit-content;
   }
 
+  .projects img {
+    transition: transform 2s;
+  }
+
+  .projects img:hover {
+    transform: scale(107%);
+  }
+
   .snapshot-details {
     display: flex;
     flex-direction: column;
@@ -235,7 +243,6 @@
   .form-btn:active {
     background-color: #172b4d;
   }
-
 }
 
 @media screen and (max-width: 768px) {
