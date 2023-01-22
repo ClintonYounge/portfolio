@@ -69,12 +69,12 @@
     height: fit-content;
   }
 
-  .projects img { 
+  .projects img {
     transition: transform 2s;
   }
-  
-  .projects img:hover{ 
-    transform: scale(107%);  
+
+  .projects img:hover {
+    transform: scale(107%);
   }
 
   .snapshot-details {
@@ -243,7 +243,6 @@
   .form-btn:active {
     background-color: #172b4d;
   }
-
 }
 
 @media screen and (max-width: 768px) {
