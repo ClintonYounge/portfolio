@@ -466,6 +466,10 @@ li {
 #username,
 #user-email,
 #text-area {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  size: 17px;
+  line-height: 20px;
   width: 85%;
   margin: 12px 24px;
   border: 1px solid #cfd8dc;
