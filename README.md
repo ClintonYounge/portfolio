@@ -57,7 +57,7 @@ A Microverse project to create the Mobile Version of my Portfolio!
 
 > Below is a link to the Live Demo of my project.
 
-- [Live Demo Link](https://clintonyounge.github.io/My-Portfolio-Project/)
+- [My Portfolio](https://clintonyounge.github.io/My-Portfolio-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
