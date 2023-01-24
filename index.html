@@ -25,7 +25,7 @@
         <li><a href="#about-section">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button class="hamburger"><img class="hamburger-img" src="./images/Enabled.png" alt=""></button>
+      <button class="hamburger"><img class="hamburger-img" src="./images/Enabled.png" alt="Menu Icon"></button>
     </nav>
   </header>
 
@@ -41,7 +41,7 @@
         <li><a href="https://twitter.com/YoungeCjay" target="_blank">
           <img src="./images/icons/Twitter icon.png"></a></li>
         <li><a href="https://www.linkedin.com/in/clinton-younge-83386a25a/" target="_blank">
-          <img src="./images/icons/Linkedin icon.png"></li>
+          <img src="./images/icons/Linkedin icon.png"></a></li>
         <li><a href="#"><img src="./images/icons/Letter M.png"></a></li>
         <li><a href="https://github.com/ClintonYounge" target="_blank">
           <img src="./images/icons/Github Kitty.png"></a></li>
@@ -56,7 +56,7 @@
         
     <div class="container">
        <div class="projects">
-           <img src="./images/Snap1.png" alt="snapshot poortfolio" class="snapshot">
+           <img src="./images/Snap1.png" alt="snapshot of project one" class="snapshot">
            <div class="snapshot-details">
              <div class="works-description">
                  <div class="works-intro">
@@ -84,7 +84,7 @@
           </div>
 
        <div class="projects">
-           <img src="./images/Snap2.png" alt="snapshot poortfolio" class="snapshot">
+           <img src="./images/Snap2.png" alt="snapshot of project two" class="snapshot">
              <div class="snapshot-details">
                <div class="works-description">
                  <div class="works-intro">
@@ -113,7 +113,7 @@
        </div>
 
        <div class="projects">
-           <img src="./images/Snap3.png" alt="snapshot poortfolio" class="snapshot">
+           <img src="./images/Snap3.png" alt="snapshot of project three" class="snapshot">
            <div class="snapshot-details">
              <div class="works-description">
                    <div class="works-intro">
@@ -141,7 +141,7 @@
        </div>
 
        <div class="projects">
-           <img src="./images/Snap4.png" alt="snapshot poortfolio" class="snapshot">
+           <img src="./images/Snap4.png" alt="snapshot of project four" class="snapshot">
            <div class="snapshot-details">
              <div class="works-description">
                  <div class="works-intro">
@@ -188,8 +188,8 @@
         <li><a href="https://twitter.com/YoungeCjay" target="_blank">
           <img src="./images/icons/Twitter icon.png"></a></li>
         <li><a href="https://www.linkedin.com/in/clinton-younge-83386a25a/" target="_blank">
-          <img src="./images/icons/Linkedin icon.png"></li>
-        <li><a><img src="./images/icons/Letter M.png"></a></li>
+          <img src="./images/icons/Linkedin icon.png"></a></li>
+        <li><a href="#"><img src="./images/icons/Letter M.png"></a></li>
         <li><a href="https://github.com/ClintonYounge" target="_blank">
           <img src="./images/icons/Github Kitty.png"></a></li>
         <li><a href="#"><img src="./images/icons/Finger icon.png"></a></li>
@@ -208,11 +208,11 @@
             </button>
           </div>
           <ul  class="language-list">
-            <li><img src="./images/Javascript Icon.png" alt="" class="language-icon">
+            <li><img src="./images/Javascript Icon.png" alt="Javascript Icon" class="language-icon">
               <span class="language-name">JavaScript</span></li>
-            <li><img src="./images/HTML icon.png" alt="" class="language-icon">
+            <li><img src="./images/HTML icon.png" alt="HTML Icon" class="language-icon">
               <span class="language-name">HTML</span></li>
-            <li><img src="./images/CSS icon.png" alt="" class="language-icon">
+            <li><img src="./images/CSS icon.png" alt="CSS Icon" class="language-icon">
               <span class="language-name">CSS</span></li>
             </ul>
         </li>
@@ -242,10 +242,13 @@
       <p class="content"> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
   
       <form action="https://formspree.io/f/xoqzvljb" method="post" class="contact-form">
-         <input type="text" name="username" placeholder="What's your name" id="username" maxlength=30 required>
-         <input type="email" name="user-email" placeholder="What's your e-mail" id="user-email" required>
-         <textarea name="message" id="text-area" cols="30" rows="10" maxlength=500 placeholder="Place your message here." required></textarea>
-         <button type="submit" class="form-btn">Get in Touch</button>
+        <label hidden for="username">What is your username?</label> 
+        <input type="text" name="username" placeholder="What's your name" id="username" maxlength=30 required>
+        <label hidden for="user-email">What is your email?</label>
+        <input type="email" name="user-email" placeholder="What's your e-mail" id="user-email" required>
+        <label hidden for="text-area">What is your message?</label>
+        <textarea name="message" id="text-area" cols="30" rows="10" maxlength=500 placeholder="Place your message here." required></textarea>
+        <button type="submit" class="form-btn">Get in Touch</button>
       </form>
     </section>
   </body>
