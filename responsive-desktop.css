@@ -4,7 +4,7 @@
   }
 
   .introduction {
-    background-image: url("./images/Portfolio-BG/Header\ bg.png");
+    background-image: url("./images/Portfolio-BG/Header-bg.png");
     background-size: cover;
   }
 
@@ -17,12 +17,14 @@
   }
 
   nav {
-    background-color: #fff;
+    position: fixed;
   }
 
   .nav-items {
     opacity: 100;
     padding-right: 142px;
+    position: fixed;
+    right: 1px;
   }
 
   .nav-items a {
