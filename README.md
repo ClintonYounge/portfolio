@@ -56,8 +56,10 @@ A Microverse project to create the Mobile Version of my Portfolio!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Below is a link to the Live Demo of my project.
-
 - [My Portfolio](https://clintonyounge.github.io/My-Portfolio-Project/)
+
+> Below is a link to Loom explaining my project.
+- [My Loom Video](https://www.loom.com/share/9b1b568f4223478b885f127548656032)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
