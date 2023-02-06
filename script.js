@@ -13,7 +13,7 @@ function closeMenu() {
 
 menuBtn.addEventListener('click', openMenu);
 
-for(let i = 0; i < navLinks.length; i++){
+for (let i = 0; i < navLinks.length; i = i + 1) {
   navLinks[i].addEventListener('click', closeMenu);
 }
 
