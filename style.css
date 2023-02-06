@@ -48,7 +48,7 @@ nav {
 
 #theMenu {
   position: fixed;
-  opacity: 0;
+  display: none;
   width: 105%;
   padding-left: 5%;
   height: 200%;

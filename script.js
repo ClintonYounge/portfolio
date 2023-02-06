@@ -4,7 +4,7 @@ const xBtn = document.getElementById('xBtn');
 const navLinks = document.querySelectorAll('.navs');
 
 function openMenu() {
-  menu.style.opacity = '90%';
+  menu.style.display = 'block';
 }
 
 function closeMenu() {
