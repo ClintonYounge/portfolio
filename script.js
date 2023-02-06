@@ -8,7 +8,7 @@ function openMenu() {
 }
 
 function closeMenu() {
-  menu.style.opacity = 0;
+  menu.style.display = 'none';
 }
 
 menuBtn.addEventListener('click', openMenu);
