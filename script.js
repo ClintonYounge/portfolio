@@ -12,7 +12,9 @@ function closeMenu() {
 }
 
 menuBtn.addEventListener('click', openMenu);
-navLinks[0].addEventListener('click', closeMenu);
-navLinks[1].addEventListener('click', closeMenu);
-navLinks[2].addEventListener('click', closeMenu);
+
+for(let i = 0; i < navLinks.length; i++){
+  navLinks[i].addEventListener('click', closeMenu);
+}
+
 xBtn.addEventListener('click', closeMenu);
