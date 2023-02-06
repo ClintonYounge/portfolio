@@ -44,6 +44,7 @@ nav {
 .introduction {
   background-image: url("./images/Background.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 0 0 0 100px;
@@ -277,6 +278,10 @@ li {
 
 .action-btn:active {
   background-color: #344563;
+}
+
+.hamburger:hover {
+  cursor: pointer;
 }
 
 #about-section {
