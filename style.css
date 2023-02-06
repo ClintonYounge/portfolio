@@ -25,10 +25,10 @@ nav {
   flex-direction: column;
   text-decoration: none;
   color: white;
-	font-size: 32px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
-	padding-bottom: 15px;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding-bottom: 15px;	
 }
 
 .navs {
@@ -52,7 +52,7 @@ nav {
   width: 105%;
   padding-left: 5%;
   height: 200%;
-  background-color: #6070FF;
+  background-color: #6070ff;
   margin-left: -5%;
 }
 
