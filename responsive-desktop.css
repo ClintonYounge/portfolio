@@ -68,15 +68,7 @@
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     margin: 50px 100px;
-    height: fit-content;
-  }
-
-  .projects img {
-    transition: transform 2s;
-  }
-
-  .projects img:hover {
-    transform: scale(107%);
+    height: auto;
   }
 
   .snapshot-details {
@@ -84,7 +76,7 @@
     flex-direction: column;
     gap: 24px;
     width: 544px;
-    height: fit-content;
+    height: auto;
     align-items: flex-start;
   }
 
@@ -142,7 +134,7 @@
 
   .language-list li {
     flex-direction: column;
-    height: fit-content;
+    height: auto;
     align-items: baseline;
     padding: 16px;
   }

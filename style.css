@@ -18,6 +18,48 @@ nav {
   opacity: 0;
 }
 
+.nav-items2 {
+  position: fixed;
+  bottom: 70%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.navs {
+  margin-top: 5%;
+  z-index: 100;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+#xBtn {
+  margin-top: -5%;
+  margin-left: 80%;
+  position: fixed;
+  top: 5%;
+  cursor: pointer;
+}
+
+#theMenu {
+  position: fixed;
+  display: none;
+  opacity: 90%;
+  width: 105%;
+  padding-left: 5%;
+  height: 200%;
+  background-color: #6070ff;
+  padding-top: 5%;
+  margin-left: -5%;
+  z-index: 9;
+}
+
 .logo {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
@@ -44,6 +86,7 @@ nav {
 .introduction {
   background-image: url("./images/Background.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 0 0 0 100px;
@@ -279,6 +322,10 @@ li {
   background-color: #344563;
 }
 
+.hamburger:hover {
+  cursor: pointer;
+}
+
 #about-section {
   display: flex;
   border-radius: 70px;
@@ -468,7 +515,6 @@ li {
 #text-area {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  size: 17px;
   line-height: 20px;
   width: 85%;
   margin: 12px 24px;
@@ -478,7 +524,6 @@ li {
 }
 
 #text-area {
-  resize: auto;
   height: auto;
 }
 
