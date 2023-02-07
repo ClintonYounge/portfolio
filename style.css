@@ -561,3 +561,11 @@ textarea::placeholder {
   color: #b3bac5;
   margin-left: 20px;
 }
+
+.openPopup {
+  display: block;
+}
+
+.closePopup {
+  display: none;
+}
