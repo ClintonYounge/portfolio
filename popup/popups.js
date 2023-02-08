@@ -8,9 +8,9 @@ const projects = [
       Role: 'Back End Dev',
       counter2: 'images/Dot-shape.png',
       year: '2015',
-      snapshot: 'images/popup/SnapPort1.svg',
+      snapshot: 'images/Snap1.png',
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'",
-      badges: ['html', 'css', 'javascript'],
+      badges: ['html', 'css', 'ruby on rails', 'javascript'],
       liveBtn: 'See live',
       sourceBtn: 'See Source',
     },
@@ -24,9 +24,9 @@ const projects = [
       Role: 'Full Stack Dev',
       counter2: 'images/Dot-shape.png',
       year: '2015',
-      snapshot: 'images/popup/SnapPort2.svg',
+      snapshot: 'images/Snap2.png',
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'",
-      badges: ['html', 'css', 'javascript'],
+      badges: ['html', 'css', 'ruby on rails', 'javascript'],
       liveBtn: 'See live',
       sourceBtn: 'See Source',
     },
@@ -40,9 +40,9 @@ const projects = [
       Role: 'Full Stack Dev',
       counter2: 'images/Dot-shape.png',
       year: '2015',
-      snapshot: 'images/popup/SnapPort3.svg',
+      snapshot: 'images/Snap3.png',
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'",
-      badges: ['html', 'css', 'javascript'],
+      badges: ['html', 'css', 'ruby on rails', 'javascript'],
       liveBtn: 'See live',
       sourceBtn: 'See Source',
     },
@@ -56,20 +56,18 @@ const projects = [
       Role: 'Lead Developer',
       counter2: 'images/Dot-shape.png',
       year: '2018',
-      snapshot: 'images/popup/SnapPort4.svg',
+      snapshot: 'images/Snap4.png',
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'",
-      badges: ['html', 'css', 'javascript'],
+      badges: ['html', 'css', 'ruby on rails', 'javascript'],
       liveBtn: 'See live',
       sourceBtn: 'See Source',
     },
   ];
   
-  //media query to apply diffent js depending on the screen width
   const modalArray = [];
   
   for (let i = 0; i < projects.length; i += 1) {
     const mediaQuery = window.matchMedia('(max-width: 768px)');
-    // Check if the media query is true
     if (mediaQuery.matches) {
       const modal = document.createElement('div');
       modal.classList.add('closePopup');
@@ -109,19 +107,17 @@ const projects = [
       card.appendChild(positions);
   
       const snapshot = document.createElement('img');
+      snapshot.classList.add('snapImages');
       snapshot.src = projects[i].snapshot;
       snapshot.style.width = '100%';
+      snapshot.style.height = '300px';
   
       card.append(snapshot);
-  
       const description = document.createElement('p');
       description.textContent = projects[i].description;
-      description.style.marginTop = '12px';
-      description.style.marginBottom = '24px';
-      description.style.width = 'auto';
-  
-      card.append(description);
       
+      card.append(description);
+      description.style.width = '600px';
   
       const leftOverSpace = document.createElement('div');
       leftOverSpace.style.display = 'flex';
@@ -219,6 +215,7 @@ const projects = [
       const snapshot = document.createElement('img');
       snapshot.src = projects[i].snapshot;
       snapshot.style.width = '100%';
+      snapshot.style.height = '300px';
       snapshot.style.marginLeft = 'auto';
       snapshot.style.marginRight = 'auto';
   
@@ -229,7 +226,7 @@ const projects = [
       description.style.marginTop = '12px';
       description.style.marginBottom = '24px';
       card.append(description);
-      description.style.width = '500px';
+      description.style.width = '700px';
   
       const leftOverSpace = document.createElement('div');
       leftOverSpace.style.display = 'flex';
@@ -259,7 +256,7 @@ const projects = [
       rightBlock.append(btnArea);
   
       const liveIcon = document.createElement('img');
-      liveIcon.src = 'img/live-icon.svg';
+      liveIcon.src = 'images/popup/live-icon.svg';
       const liveBtn = document.createElement('button');
       liveBtn.textContent = projects[i].liveBtn;
       liveBtn.style.width = '130px';
@@ -269,7 +266,7 @@ const projects = [
       btnArea.append(liveBtn);
   
       const sourceIcon = document.createElement('img');
-      sourceIcon.src = 'img/source-icon.png';
+      sourceIcon.src = 'images/popup/source-icon.png';
       const sourceBtn = document.createElement('button');
       sourceBtn.textContent = projects[i].sourceBtn;
       sourceBtn.style.width = '146px';
@@ -288,3 +285,4 @@ const projects = [
       seeProject[i].addEventListener('click', () => { modalArray[i].classList.remove('closePopup'); modalArray[i].classList.add('openPopup'); });
     }
   }
+  
