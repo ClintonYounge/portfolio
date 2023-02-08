@@ -14,7 +14,7 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
-  
+
   {
     id: 'popup2',
     Title: 'Multi-Post Stories',
@@ -30,7 +30,7 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
-  
+
   {
     id: 'popup3',
     Title: 'Facebook 360',
@@ -46,7 +46,7 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
-  
+
   {
     id: 'popup4',
     Title: 'Uber Navigation',
@@ -63,7 +63,7 @@ const projects = [
     sourceBtn: 'See Source',
   },
 ];
-  
+
 const modalArray = [];
 
 for (let i = 0; i < projects.length; i += 1) {
@@ -115,7 +115,7 @@ for (let i = 0; i < projects.length; i += 1) {
     card.append(snapshot);
     const description = document.createElement('p');
     description.textContent = projects[i].description;
-    
+  
     card.append(description);
     description.style.width = '600px';
 
@@ -285,4 +285,3 @@ for (let i = 0; i < projects.length; i += 1) {
     seeProject[i].addEventListener('click', () => { modalArray[i].classList.remove('closePopup'); modalArray[i].classList.add('openPopup'); });
   }
 }
-  
