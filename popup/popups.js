@@ -115,7 +115,7 @@ for (let i = 0; i < projects.length; i += 1) {
     card.append(snapshot);
     const description = document.createElement('p');
     description.textContent = projects[i].description;
-  
+
     card.append(description);
     description.style.width = '600px';
 
