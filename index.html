@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./popup/popups.css">
   <link rel="stylesheet" href="./popup/popupsPty.css">
   <link rel="stylesheet" href="./popup/popupsPty2.css">
+  <link rel="stylesheet" href="./form-validity/form-validity.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link
@@ -20,6 +21,7 @@
   <script src="./popup/work-section.js" defer></script>
   <script src="./mobile-menu/script.js" defer></script>
   <script src="./popup/popups.js" defer></script>
+  <script src="./form-validity/validity.js" defer></script>
 </head>
 
 <body>
@@ -261,6 +263,7 @@
       <form action="https://formspree.io/f/xoqzvljb" method="post" class="contact-form">
         <label hidden for="username">What is your username?</label> 
         <input type="text" name="username" placeholder="What's your name" id="username" maxlength=30 required>
+        <p class="error-message">ERROR: PLEASE USE ALL LOWER CASE LETTERS.</p>
         <label hidden for="user-email">What is your email?</label>
         <input type="email" name="user-email" placeholder="What's your e-mail" id="user-email" required>
         <label hidden for="text-area">What is your message?</label>
