@@ -115,7 +115,7 @@ for (let i = 0; i < projects.length; i += 1) {
   const description = document.createElement('p');
   description.classList.add('card-desc');
 
-  const mq = window.matchMedia( "(min-width: 1720px)" );
+  const mq = window.matchMedia('(min-width: 1720px)');
 
   if (mq.matches) {
     description.textContent = projects[i].description;
