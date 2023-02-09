@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   padding: 16px;
-  background: #C1C7D0;
+  background: #c1d7d0;
   opacity: 95%;
   overflow-y: scroll;
 }
@@ -49,7 +49,7 @@
 .card-desc {
   width: 311px;
   height: 220px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -64,15 +64,14 @@
   margin-top: 15px;
 }
 
-
 .positionsPty {
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px; 
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -139,8 +138,6 @@
     background-color: #fff;
     height: 727px;
     width: 650px;
-    left: 0px;
-    top: 0px;
     border-radius: 16px;
     margin: auto;
     border: 1px solid #ebecf0;
@@ -150,12 +147,12 @@
   .titlePty {
     width: 1056px;
     height: 40px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42; 
+    color: #091e42; 
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -178,7 +175,7 @@
   .card-desc {
     width: 270px;
     height: 220px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -189,12 +186,11 @@
     flex-grow: 0;
     margin-right: 20px;
   }
-  
+
   .badges {
     margin-top: 15px;
   }
-  
-  
+
   .positionsPty {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -203,7 +199,7 @@
     color: #344563;
     margin: 12px 0;
   }
-  
+
   .liPty {
     padding: 4px 12px;
     background: #ebebff;
@@ -218,13 +214,13 @@
     margin-top: 10px;
     margin-right: 10px;
   }
-  
+
   .btnAreaPty {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
   }
-  
+
   .liveBtnPty {
     padding: 12px;
     border: 1px solid #6070ff;
@@ -242,7 +238,7 @@
     cursor: pointer;
     margin-left: 10px;
   }
-  
+
   .hrclass {
     margin-top: 20px;
   }
@@ -265,8 +261,6 @@
     background-color: #fff;
     height: 1163px;
     width: 1156px;
-    left: 0px;
-    top: 0px;
     border-radius: 16px;
     margin: auto;
     border: 1px solid #ebecf0;
@@ -276,12 +270,12 @@
   .titlePty {
     width: 1056px;
     height: 40px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42; 
+    color: #091e42;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -294,7 +288,6 @@
     position: absolute;
     margin-left: 1090px;
     margin-right: -300px;
-    
     cursor: pointer;
   }
 
@@ -306,8 +299,8 @@
 
   .card-desc {
     width: 778px;
-    height: 382px; 
-    font-family: 'Poppins';
+    height: 382px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -320,12 +313,12 @@
 
   .positionsPty {
     height: 20px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #7A869A;
+    color: #7a869a;
     flex: none;
     order: 0;
     flex-grow: 0;
