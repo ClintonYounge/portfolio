@@ -1,0 +1,57 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #c1c7d0;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  overflow: auto;
+  display: none;
+}
+
+.popup-card {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  padding: 12px;
+}
+
+.popup-close-btn {
+  color: #67798e;
+  font-size: 24px;
+  font-weight: 900;
+  position: absolute;
+  top: 35px;
+  right: 32px;
+}
+
+.popup-close-btn:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.popup-details {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 100%;
+  gap: 16px;
+  padding: 0 5px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.pop-click {
+  display: flex;
+  height: 50px;
+}
+
+.popup-buttons img {
+  margin-left: 5px;
+}
