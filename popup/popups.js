@@ -111,7 +111,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
   card.append(snapshot);
   const description = document.createElement('p');
-  description.classList.add('card-desc')
+  description.classList.add('card-desc');
   description.textContent = projects[i].description;
 
   card.append(description);
@@ -124,7 +124,7 @@ for (let i = 0; i < projects.length; i += 1) {
   leftOverSpace.append(description);
 
   const badges = document.createElement('ul');
-  badges.classList.add('badges')
+  badges.classList.add('badges');
 
   for (let j = 0; j < projects[i].badges.length; j += 1) {
     const li = document.createElement('li');
@@ -135,9 +135,9 @@ for (let i = 0; i < projects.length; i += 1) {
   }
 
   const hr = document.createElement('hr');
-  hr.classList.add('hrclass')
+  hr.classList.add('hrclass');
   badges.append(hr);
-  
+
   const rightBlock = document.createElement('div');
   rightBlock.style.display = 'flex';
   rightBlock.style.flexDirection = 'column';
@@ -178,8 +178,8 @@ for (let i = 0; i < projects.length; i += 1) {
   const aboutSection = document.getElementById('about-section');
   const contactSection = document.getElementById('contact');
 
-  closeButt.addEventListener('click', () => { 
-    modalArray[i].classList.remove('openPopup'); 
+  closeButt.addEventListener('click', () => {
+    modalArray[i].classList.remove('openPopup');
     modalArray[i].classList.add('closePopup');
     headerSection.style.filter = 'none';
     introSection.style.filter = 'none';
@@ -190,13 +190,13 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const seeProject = document.querySelectorAll('.see-project');
 
-  seeProject[i].addEventListener('click', () => { 
-    modalArray[i].classList.remove('closePopup'); 
+  seeProject[i].addEventListener('click', () => {
+    modalArray[i].classList.remove('closePopup');
     modalArray[i].classList.add('openPopup');
     headerSection.style.filter = 'blur(3px)';
     introSection.style.filter = 'blur(3px)';
     workSection.style.filter = 'blur(3px)';
     aboutSection.style.filter = 'blur(3px)';
-    contactSection.style.filter = 'blur(3px)';  
+    contactSection.style.filter = 'blur(3px)';
   });
 }
