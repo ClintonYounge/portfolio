@@ -7,13 +7,15 @@
   left: 0;
   right: 0;
   padding: 16px;
-  opacity: 1;
+  background: #C1C7D0;
+  opacity: 90%;
+  overflow-y: scroll;
 }
 
 .cardPty {
   background-color: #fff;
   width: 343px;
-  height: 700px;
+  height: 713px;
   border-radius: 10px;
   padding: 12px;
   opacity: 1;
@@ -40,21 +42,40 @@
 }
 
 .snapImages {
-  width: 100%;
-  height: 330px;
+  width: 311px;
+  height: 220px;
 }
 
 .card-desc {
-  width: auto;
-  margin-bottom: 3%;
+  width: 311px;
+  height: 220px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
+.badges {
+  margin-top: 15px;
+}
+
+
 .positionsPty {
-  font-family: 'Poppins', sans-serif;
+  height: 16px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #344563;
+  line-height: 16px; 
+  color: #7A869A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 12px 0;
 }
 
@@ -98,10 +119,10 @@
 }
 
 .hrclass {
-  margin-top: 5%;
+  margin-top: 20px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 800px) {
   .modalPty {
     height: 100%;
     width: 100%;
@@ -111,49 +132,69 @@
     left: 0;
     right: 0;
     padding: 16px;
-    opacity: 1;
+    opacity: 0.95;
   }
 
   .cardPty {
     background-color: #fff;
-    width: 680px;
-    height: 672px;
-    margin: auto;
+    height: 727px;
+    width: 650px;
+    left: 0px;
+    top: 0px;
     border-radius: 16px;
+    margin: auto;
     border: 1px solid #ebecf0;
-    padding: 12px;
     opacity: 1;
   }
 
   .titlePty {
-    font-family: 'Poppins', sans-serif;
+    width: 1056px;
+    height: 40px;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    color: #172b4d;
-    line-height: 44px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .closeButtPty {
     color: #67798e;
     font-size: 24px;
     font-weight: 900;
-    position: absolute;
-    margin-left: 635px;
-    margin-top: -40px;
+    position: fixed;
+    margin-left: 580px;
     cursor: pointer;
   }
 
   .snapImages {
     width: 100%;
-    height: 350px;
+    height: 311px;
   }
 
   .card-desc {
-    width: 325px;
-    margin-top: 30px;
+    width: 270px;
+    height: 220px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 20px;
   }
-
+  
+  .badges {
+    margin-top: 15px;
+  }
+  
+  
   .positionsPty {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -162,9 +203,137 @@
     color: #344563;
     margin: 12px 0;
   }
+  
+  .liPty {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .btnAreaPty {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .liveBtnPty {
+    padding: 12px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #396df2;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .hrclass {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1720px) {
+  .modalPty {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    opacity: 0.95;
+  }
+
+  .cardPty {
+    background-color: #fff;
+    height: 1163px;
+    width: 1156px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    margin: auto;
+    border: 1px solid #ebecf0;
+    opacity: 1;
+  }
+
+  .titlePty {
+    width: 1056px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .closeButtPty {
+    color: #67798e;
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    margin-left: 1090px;
+    margin-right: -300px;
+    
+    cursor: pointer;
+  }
+
+  .snapImages {
+    width: 100%;
+    height: 586px;
+    background: url(image_processing20200410-17374-6o69vv.png);
+  }
+
+  .card-desc {
+    width: 778px;
+    height: 382px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .positionsPty {
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7A869A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0;
+  }
 
   .badges {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .liPty {
