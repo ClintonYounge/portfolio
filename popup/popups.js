@@ -115,18 +115,6 @@ for (let i = 0; i < projects.length; i += 1) {
   const description = document.createElement('p');
   description.classList.add('card-desc');
 
-  function myFunction(x) {
-    if (x.matches) {
-      description.textContent = projects[i].description;
-    } else {
-      description.textContent = desktopDescription;
-    }
-  }
-
-  const media = window.matchMedia('(max-width: 1740px)');
-  myFunction(media);
-  media.addListener(myFunction);
-
   card.append(description);
 
   const leftOverSpace = document.createElement('div');
@@ -213,3 +201,15 @@ for (let i = 0; i < projects.length; i += 1) {
     contactSection.style.filter = 'blur(3px)';
   });
 }
+
+function myFunction(x) {
+  if (x.matches) {
+    description.textContent = projects[i].description;
+  } else {
+    description.textContent = desktopDescription;
+  }
+}
+
+const media = window.matchMedia('(max-width: 1740px)');
+myFunction(media);
+media.addListener(myFunction);
