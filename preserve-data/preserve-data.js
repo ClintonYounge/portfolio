@@ -9,3 +9,19 @@ let formObject = {
   mail: '',
   'text-area': '',
 };
+if (rawData) {
+  formObject = JSON.parse(rawData);
+  inputName.value = formObject.name;
+  email.value = formObject.mail;
+  message.value = formObject['text-box'];
+}
+
+const dataStore = (event) => {
+  const element = event.target;
+  formObject[element.name] = element.value;
+  localStorage.setItem('cachedFormData', JSON.stringify(formObject));
+};
+
+inputName.addEventListener('change', dataStore);
+email.addEventListener('change', dataStore);
+message.addEventListener('change', dataStore);
