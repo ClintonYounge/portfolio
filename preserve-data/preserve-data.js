@@ -9,6 +9,7 @@ let formObject = {
   mail: '',
   'text-area': '',
 };
+
 if (rawData) {
   formObject = JSON.parse(rawData);
   inputName.value = formObject.name;
