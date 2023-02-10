@@ -13,7 +13,7 @@ if (rawData) {
   formObject = JSON.parse(rawData);
   inputName.value = formObject.username;
   email.value = formObject['user-email'];
-  text_area.value = formObject['text-area'];
+  message.value = formObject.message;
 }
 
 const dataStore = (event) => {
