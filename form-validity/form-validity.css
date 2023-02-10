@@ -10,3 +10,19 @@
   margin-top: 8px;
   visibility: hidden;
 }
+
+@media screen and (max-width: 768px) {
+  .error-message {
+    position: absolute;
+    width: 83.5%;
+    font-weight: 800;
+    text-align: center;
+    left: 36px;
+    color: rgb(170, 23, 23);
+    background-color: rgb(33, 132, 167);
+    font-size: 1rem;
+    margin-right: 15px;
+    margin-top: 8px;
+    visibility: hidden;
+  }
+}
