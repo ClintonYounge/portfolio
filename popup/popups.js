@@ -1,16 +1,15 @@
 const projects = [
   {
     id: 'popup1',
-    Title: 'Tonic',
+    Title: 'Experience Guyana',
     closeButt: '&times;',
     Client: 'CANOPY',
     counter1: 'images/Dot-shape.png',
     Role: 'Back End Dev',
     counter2: 'images/Dot-shape.png',
-    year: '2015',
+    year: '2023',
     snapshot: 'images/Snap1.png',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic. typesetting, remaining essent.",
-
+    description: "A chance to expeience the country Guyana. An event filled tour awaits any who enroll. The scheduled events will have all your senses experience Guyana. A chance to expeience the country Guyana. An event filled tour awaits any who enroll. The scheduled events will have all your senses experience Guyana",
     badges: ['html', 'css', 'javascript'],
     liveBtn: 'See live',
     sourceBtn: 'See Source',
@@ -117,11 +116,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const mq = window.matchMedia('(min-width: 1720px)');
 
-  if (mq.matches) {
-    description.textContent = projects[i].description;
-  } else {
-    description.textContent = desktopDescription;
-  }
+  description.textContent = projects[i].description;
 
   card.append(description);
 
