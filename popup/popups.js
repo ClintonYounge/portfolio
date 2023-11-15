@@ -14,6 +14,24 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
+
+  {
+    id: 'popup2',
+    Title: 'Catalog of Things',
+    closeButt: '&times;',
+    Client: 'FACEBOOK',
+    counter1: 'images/Dot-shape.png',
+    Role: 'Back End Dev',
+    counter2: 'images/Dot-shape.png',
+    year: '2023',
+    snapshot: 'images/Snap2.png',
+    description: "A console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games.",
+    badges: ['HTML5', 'Ruby on Rails', 'PostgreSQL'],
+    liveBtn: 'See live',
+    sourceBtn: 'See Source',
+  },
+
+  
 ];
 
 const desktopDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.";
