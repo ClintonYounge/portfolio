@@ -61,28 +61,31 @@
 
   .projects {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     padding: 24px;
-    width: 90%;
+    width: 100%;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    margin: 50px 100px;
-    height: auto;
+    height: 400px;
+  }
+
+  .project-title {
+    font-size: 36px;
+  }
+
+  .snapshot {
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
   }
 
   .snapshot-details {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 544px;
-    height: auto;
-    align-items: flex-start;
-  }
-
-  .snapshot {
-    width: 554px;
-    border-radius: 1px;
+    width: 100%;
+    height: 100%;
   }
 
   #about-section {
@@ -244,4 +247,11 @@
     position: fixed;
     top: 15px;
   }
+}
+
+@media screen and (min-width: 1100px) {
+  .projects {
+    height: 600px;
+  }
+  
 }
