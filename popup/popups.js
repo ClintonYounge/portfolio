@@ -91,7 +91,21 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
-  
+  {
+    id: 'popup7',
+    Title: 'Experience Guyana',
+    closeButt: '&times;',
+    Client: 'Uber',
+    counter1: 'images/Dot-shape.png',
+    Role: 'Front End Dev',
+    counter2: 'images/Dot-shape.png',
+    year: '2023',
+    snapshot: 'images/Snap4.png',
+    description: "A chance to experience the country Guyana. An event filled tour awaits.",
+    badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
+    liveBtn: 'See live',
+    sourceBtn: 'See Source',
+  },
 ];
 
 const desktopDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.";
