@@ -61,6 +61,21 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
+  {
+    id: 'popup5',
+    Title: 'Space Traveller',
+    closeButt: '&times;',
+    Client: 'Uber',
+    counter1: 'images/Dot-shape.png',
+    Role: 'Front End Dev',
+    counter2: 'images/Dot-shape.png',
+    year: '2023',
+    snapshot: 'images/Snap4.png',
+    description: "In this project, I collaborated with another developer and worked with live data from the SpaceX API. We built a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join space missions.",
+    badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
+    liveBtn: 'See live',
+    sourceBtn: 'See Source',
+  },
   
 ];
 
