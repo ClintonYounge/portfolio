@@ -76,6 +76,21 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
+  {
+    id: 'popup6',
+    Title: 'JavaScript Capstone',
+    closeButt: '&times;',
+    Client: 'Uber',
+    counter1: 'images/Dot-shape.png',
+    Role: 'Full Stack Dev',
+    counter2: 'images/Dot-shape.png',
+    year: '2023',
+    snapshot: 'images/Snap4.png',
+    description: "A JavaScript capstone project about building a web application based on an external API. In a group with 2 other programmers, we selected the Meals API that provides data about meals then built the webapp around it.",
+    badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
+    liveBtn: 'See live',
+    sourceBtn: 'See Source',
+  },
   
 ];
 
