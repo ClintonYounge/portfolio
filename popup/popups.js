@@ -31,6 +31,36 @@ const projects = [
     sourceBtn: 'See Source',
   },
 
+  {
+    id: 'popup3',
+    Title: 'Meals Budgeting App',
+    closeButt: '&times;',
+    Client: 'FACEBOOK',
+    counter1: 'images/Dot-shape.png',
+    Role: 'Front End Dev',
+    counter2: 'images/Dot-shape.png',
+    year: '2023',
+    snapshot: 'images/Snap3.png',
+    description: "A mobile web application where you can manage your budget to spend on meals: you have a list of orders associated with a meal, so that you can see how much money you spent and on what.",
+    badges: ['HTML5', 'Ruby on Rails', 'PostgreSQL', 'CSS3'],
+    liveBtn: 'See live',
+    sourceBtn: 'See Source',
+  },
+  {
+    id: 'popup5',
+    Title: 'Mobile Tech Financial Digest',
+    closeButt: '&times;',
+    Client: 'Uber',
+    counter1: 'images/Dot-shape.png',
+    Role: 'Front End Dev',
+    counter2: 'images/Dot-shape.png',
+    year: '2023',
+    snapshot: 'images/Snap4.png',
+    description: "Mobile Tech Financial Digest is a react redux project which allows users to go through financial data of Apple, Samsung, Xiaomi and Google by interacting.",
+    badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
+    liveBtn: 'See live',
+    sourceBtn: 'See Source',
+  },
   
 ];
 
