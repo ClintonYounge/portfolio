@@ -48,7 +48,7 @@
 
 .card-desc {
   width: 311px;
-  height: 220px;
+  height: 200px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -63,6 +63,8 @@
 
 .badges {
   margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .positionsPty {
@@ -175,8 +177,8 @@
   }
 
   .card-desc {
-    width: 270px;
-    height: 220px;
+    width: 620px;
+    height: 160px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
