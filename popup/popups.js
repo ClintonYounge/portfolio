@@ -213,12 +213,21 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const sourceIcon = document.createElement('img');
   sourceIcon.src = 'images/popup/source-icon.png';
+  
+  const sourceLink = document.createElement('a');
+  sourceLink.href = projects[i].sourceBtn;
+  sourceLink.target = '_blank';
+  sourceLink.style.textDecoration = 'none';
+
   const sourceBtn = document.createElement('button');
-  sourceBtn.textContent = projects[i].sourceBtn;
+  sourceBtn.textContent = 'See live';
   sourceBtn.style.width = '146px';
   sourceBtn.append(sourceIcon);
   sourceBtn.classList.add('liveBtnPty');
-  btnArea.append(sourceBtn);
+  
+  sourceLink.appendChild(sourceBtn);
+  btnArea.append(sourceLink);
+  
   leftOverSpace.append(rightBlock);
 
   modalArray.push(modal);
