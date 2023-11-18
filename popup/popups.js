@@ -86,8 +86,8 @@ const projects = [
     snapshot: 'images/projects/js-capstone.png',
     description: "A JavaScript capstone project about building a web application based on an external API. In a group with 2 other programmers, we selected the Meals API that provides data about meals then built the webapp around it.",
     badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
-    liveBtn: 'See live',
-    sourceBtn: 'See Source',
+    liveBtn: 'https://clintonyounge.github.io/JS-Capstone-Group-Project/dist/',
+    sourceBtn: 'https://github.com/ClintonYounge/JS-Capstone-Group-Project',
   },
   {
     id: 'popup7',
