@@ -9,12 +9,11 @@ const projects = [
     counter2: 'images/Dot-shape.png',
     year: '2023',
     snapshot: 'images/projects/dr-globe.png',
-    description: "A ruby on rails backend for a react/redux front end app that allows users to signup, login, and interact with doctors and make appointments.",
+    description: "A complete project separated into two apps. A ruby on rails backend app to store all necessary data and a react/redux front end app that allows users to signup, login, and interact with doctors and make appointments. All interactions manipulate data in the backend app.",
     badges: ['HTML5', 'Ruby on Rails', 'PostgreSQL'],
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
-
   {
     id: 'popup2',
     Title: 'Catalog of Things',
@@ -30,7 +29,6 @@ const projects = [
     liveBtn: 'See live',
     sourceBtn: 'See Source',
   },
-
   {
     id: 'popup3',
     Title: 'Meals Budgeting App',
