@@ -101,8 +101,8 @@ const projects = [
     snapshot: 'images/projects/exp-gy.png',
     description: "A chance to experience the country Guyana. An event filled tour awaits.",
     badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
-    liveBtn: 'See live',
-    sourceBtn: 'See Source',
+    liveBtn: 'https://clintonyounge.github.io/Experience-Guyana/',
+    sourceBtn: 'https://github.com/ClintonYounge/Experience-Guyana',
   },
 ];
 
