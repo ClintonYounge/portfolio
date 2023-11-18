@@ -196,13 +196,20 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const liveIcon = document.createElement('img');
   liveIcon.src = 'images/popup/live-icon.svg';
+  
+  const liveLink = document.createElement('a');
+  liveLink.href = projects[i].liveBtn;
+  liveLink.target = '_blank';
+  liveLink.style.textDecoration = 'none';
+
   const liveBtn = document.createElement('button');
-  liveBtn.textContent = projects[i].liveBtn;
+  liveBtn.textContent = 'See Live';
   liveBtn.style.width = '130px';
   liveBtn.append(liveIcon);
   liveBtn.classList.add('liveBtnPty');
 
-  btnArea.append(liveBtn);
+  liveLink.appendChild(liveBtn);
+  btnArea.append(liveLink);
 
   const sourceIcon = document.createElement('img');
   sourceIcon.src = 'images/popup/source-icon.png';
