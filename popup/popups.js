@@ -11,8 +11,8 @@ const projects = [
     snapshot: 'images/projects/dr-globe.png',
     description: "A complete project separated into two apps. A ruby on rails backend app to store all necessary data and a react/redux front end app that allows users to signup, login, and interact with doctors and make appointments. All interactions manipulate data in the backend app.",
     badges: ['HTML5', 'Ruby on Rails', 'PostgreSQL'],
-    liveBtn: 'See live',
-    sourceBtn: 'See Source',
+    liveBtn: 'https://doctorappoinments.netlify.app/',
+    sourceBtn: 'https://github.com/benja27/Doctor-Appoinments---Front-End',
   },
   {
     id: 'popup2',
