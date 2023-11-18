@@ -26,8 +26,8 @@ const projects = [
     snapshot: 'images/projects/catalog-of-things.png',
     description: "A console app that will help you to keep a record of different types of things you own: books, music albums, movies, and games.",
     badges: ['HTML5', 'Ruby on Rails', 'PostgreSQL'],
-    liveBtn: 'See live',
-    sourceBtn: 'See Source',
+    liveBtn: 'https://github.com/ClintonYounge/Catalog-Of-Things-Ruby-Capstone',
+    sourceBtn: 'https://github.com/ClintonYounge/Catalog-Of-Things-Ruby-Capstone',
   },
   {
     id: 'popup3',
@@ -220,7 +220,7 @@ for (let i = 0; i < projects.length; i += 1) {
   sourceLink.style.textDecoration = 'none';
 
   const sourceBtn = document.createElement('button');
-  sourceBtn.textContent = 'See live';
+  sourceBtn.textContent = 'See Source';
   sourceBtn.style.width = '146px';
   sourceBtn.append(sourceIcon);
   sourceBtn.classList.add('liveBtnPty');
