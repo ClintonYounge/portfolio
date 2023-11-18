@@ -56,8 +56,8 @@ const projects = [
     snapshot: 'images/projects/MTFD.png',
     description: "Mobile Tech Financial Digest is a react redux project which allows users to go through financial data of Apple, Samsung, Xiaomi and Google by interacting.",
     badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
-    liveBtn: 'See live',
-    sourceBtn: 'See Source',
+    liveBtn: 'https://mobile-tech-financial-digest.onrender.com/',
+    sourceBtn: 'https://github.com/ClintonYounge/Mobile-Tech-Financial-Digest',
   },
   {
     id: 'popup5',
