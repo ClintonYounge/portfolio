@@ -105,6 +105,35 @@ li {
   display: inline;
 }
 
+.recent-projects {
+  color: #6070ff;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 100px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards, shake 2s infinite 3s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25%, 75% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
 #work-section {
   padding: 114px 24px;
 }
