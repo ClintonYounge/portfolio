@@ -53,7 +53,7 @@ const projects = [
     Role: 'Front End Dev',
     counter2: 'images/Dot-shape.png',
     year: '2023',
-    snapshot: 'images/projects/MTFD.png',
+    snapshot: 'images/projects/mtfd2.png',
     description: "Mobile Tech Financial Digest is a react redux project which allows users to go through financial data of Apple, Samsung, Xiaomi and Google by interacting.",
     badges: ['React', 'Redux', 'JavaScript', 'CSS3'],
     liveBtn: 'https://mobile-tech-financial-digest.onrender.com/',
