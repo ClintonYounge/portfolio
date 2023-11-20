@@ -351,11 +351,12 @@ li {
 }
 
 .skilllist {
+  background-color: #525fbf;
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
   align-items: center;
-  padding: 0;
-  width: 327px;
+  width: 400px;
 }
 
 .languages {
@@ -395,18 +396,16 @@ li {
 }
 
 .language-list {
-  padding: 12px;
+  display: flex;
+  grid-template-columns: repeat(1, 1fr);
   gap: 12px;
-  width: 327px;
+  width: 100%;
 }
 
 .language-list li {
-  list-style-type: none;
-  display: flex;
   align-items: center;
   padding-left: 12px;
   height: 66.72px;
-  gap: 12px;
   background: #f7f7f9;
   border-radius: 8px;
   margin: 12px 0;
