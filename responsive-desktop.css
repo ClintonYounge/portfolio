@@ -125,10 +125,17 @@
     grid-gap: 0 24px;
   }
 
+  .main-list {
+    width: 100%;
+    background-color: aquamarine;
+  }
+
   .frameworks-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 24px;
+    background-color: #172b4d;
+    width: 100%;
   }
 
   .frameworks,
