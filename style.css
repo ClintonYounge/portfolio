@@ -397,12 +397,13 @@ li {
 
 .language-list {
   display: flex;
-  grid-template-columns: repeat(1, 1fr);
+  flex-direction: column;
   gap: 12px;
   width: 100%;
 }
 
 .language-list li {
+  display: flex;
   align-items: center;
   padding-left: 12px;
   height: 66.72px;
