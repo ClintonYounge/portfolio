@@ -5,7 +5,7 @@ const projects = [
     closeButt: '&times;',
     Client: 'Microverse',
     counter1: 'images/Dot-shape.png',
-    Role: 'Back End Dev',
+    Role: 'Full Stack Dev',
     counter2: 'images/Dot-shape.png',
     year: '2023',
     snapshot: 'images/projects/dr-globe.png',
