@@ -351,7 +351,6 @@ li {
 }
 
 .skilllist {
-  background-color: #525fbf;
   display: flex;
   flex-direction: column;
   margin-top: 100px;
@@ -368,13 +367,6 @@ li {
   height: 320.15px;
 }
 
-.languages-heading {
-  width: 327px;
-  display: flex;
-  justify-content: space-between;
-  padding: 12px;
-}
-
 .language-title {
   height: 24px;
   font-family: 'Poppins', sans-serif;
@@ -383,7 +375,7 @@ li {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-right: 180px;
+  margin-right: 280px;
 }
 
 .chevron-button {
