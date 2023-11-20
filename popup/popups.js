@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 'popup1',
-    Title: 'Doctor Appointments Backend',
+    Title: 'Doctor Appointments',
     closeButt: '&times;',
     Client: 'Microverse',
     counter1: 'images/Dot-shape.png',
