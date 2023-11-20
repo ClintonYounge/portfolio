@@ -119,13 +119,6 @@
     height: 409px;
   }
 
-  .language-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 12px;
-  }
-
   .language-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -136,7 +129,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 24px;
-    background-color: #172b4d;
     width: 100%;
   }
 
@@ -237,6 +229,20 @@
 
   .form-btn:active {
     background-color: #172b4d;
+  }
+
+  .frameworks-list {
+    gap: 10px;
+  }
+
+  .frameworks-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .frameworks-list li img {
+    width: 40px;
+    height: 40px;
   }
 }
 
