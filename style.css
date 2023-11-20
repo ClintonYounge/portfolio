@@ -350,6 +350,10 @@ li {
   margin-right: 15px;
 }
 
+.main-list {
+  width: 100%;
+}
+
 .skilllist {
   display: flex;
   flex-direction: column;
@@ -387,17 +391,19 @@ li {
   background: #e7eaef;
 }
 
-.language-list {
+.language-list,
+.frameworks-list {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.language-list li {
+.language-list li,
+.frameworks-list li {
   display: flex;
   align-items: center;
   padding-left: 12px;
-  height: 66.72px;
+  height: auto;
   background: #f7f7f9;
   border-radius: 8px;
   margin: 8px 0;
