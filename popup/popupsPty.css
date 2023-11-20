@@ -301,8 +301,8 @@
   }
 
   .card-desc {
-    width: 778px;
-    height: 382px;
+    width: 100%;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
