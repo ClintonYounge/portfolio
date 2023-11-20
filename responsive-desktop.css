@@ -241,9 +241,6 @@
 
 @media screen and (min-width: 900px) {
   .language-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 24px;
-    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
