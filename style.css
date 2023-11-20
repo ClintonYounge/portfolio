@@ -412,6 +412,13 @@ li {
   margin: 12px 0;
 }
 
+.language-list li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
 .language-name {
   height: 24px;
   left: 76px;
