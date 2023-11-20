@@ -390,7 +390,6 @@ li {
 .language-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
   width: 100%;
 }
 
@@ -401,12 +400,12 @@ li {
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
-  margin: 12px 0;
+  margin: 8px 0;
 }
 
-.language-list li img {
-  width: 40px;
-  height: 40px;
+.language-icon {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 12px;
 }
@@ -419,6 +418,10 @@ li {
   font-weight: 500;
   font-size: 15px;
   color: #253858;
+}
+
+.main-list {
+  margin-bottom: 50px;
 }
 
 .frameworks,
