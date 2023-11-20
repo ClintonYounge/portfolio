@@ -120,27 +120,11 @@
     height: 409px;
   }
 
-  .skilllist li {
-    padding: 0;
-    width: 100%;
-  }
-
-  .skilllist div {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .language-list {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 24px;
     width: 100%;
-  }
-
-  .language-list li {
-    flex-direction: column;
-    height: auto;
-    align-items: baseline;
-    padding: 16px;
   }
 
   .frameworks,
