@@ -38,7 +38,7 @@ const projects = [
     Role: 'Front End Dev',
     counter2: 'images/Dot-shape.png',
     year: '2023',
-    snapshot: 'images/projects/meal-budgeting.jpg',
+    snapshot: 'images/projects/meal-budg.png',
     description: "A mobile web application where you can manage your budget to spend on meals: you have a list of orders associated with a meal, so that you can see how much money you spent and on what.",
     badges: ['HTML5', 'Ruby on Rails', 'PostgreSQL', 'CSS3'],
     liveBtn: 'https://meals-budgetting-app.onrender.com/',
