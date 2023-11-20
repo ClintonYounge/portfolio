@@ -59,6 +59,10 @@
     flex-wrap: wrap;
   }
 
+  .recent-projects {
+    font-size: 2em;
+  }
+
   .projects {
     display: flex;
     justify-content: space-between;
